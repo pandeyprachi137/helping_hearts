@@ -1,0 +1,6 @@
+const mongoose=require("mongoose")
+const users_collection1=require("./userdata")
+const users_collection2=require("./userdata2")
+mongoose.connect('mongodb://localhost:27017/myuserdata')
+.then(()=>{console.log('Mongoose connection successful')})
+.catch((err)=>console.log(err))

@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Donate Now</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Pacifico&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		/* import google font family */
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&display=swap');
+
+		/* selecting everything */
+		* {
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		hr {
+			height: 3.5px;
+			border: none;
+			background-color: #f15226;
+			margin: 20px auto;
+			width: 25%;
+			border-radius: 10px;
+		}
+
+
+		body {
+			font-family: 'Open Sans', sans-serif, helvetica, Arial;
+			font-weight: 400;
+			font-size: 14px;
+			color: black;
+			/* body background image */
+			/* background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.541), rgba(204, 0, 255, 0.637)), url(image.jpg); */
+			/* background-image: linear-gradient(to bottom, rgb(255, 195, 110), rgb(255, 146, 91)); */
+			background-attachment: fixed;
+			background-size: cover;
+			
+
+		}
+
+		.container {
+			max-width: 800px;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		#contact {
+			background-color: rgba(0, 0, 0, 0.75);
+			padding: 20px;
+			margin: 50px 0;
+		}
+
+		#contact input,
+		button {
+			font: 400 15px 'Open Sans', sans-serif, helvetica, Arial;
+		}
+
+		#contact h1 {
+			font-size: 35px;
+			font-weight: bold;
+			text-align: center;
+			color: #fff;
+		}
+
+		#contact h3 {
+			margin: 5px 0px 15px;
+			text-align: center;
+		}
+
+		.row {
+			display: flex;
+			width: 100% !important;
+			padding: 20px 0px;
+		}
+
+		.row .column {
+			margin: 0px 20px;
+			width: 50%;
+		}
+
+		fieldset {
+			border: medium none !important;
+			margin: 0 0 10px;
+			min-width: 100%;
+			width: 100%;
+		}
+
+		#contact input {
+			width: 100%;
+			border: 1px solid #f15226;
+			background-color: white;
+			padding: 10px;
+			margin: 5px 0;
+		}
+
+		input[type="radio"] {
+			width: 10% !important;
+		}
+
+		#contact .row .radio {
+			border: 1px solid rgb(150, 150, 150);
+			background-color: white;
+			margin: 7px 0 10px;
+			padding: 5px;
+		}
+
+		#contact .row .idCard {
+			display: flex;
+			height: 45px !important;
+			margin: 5px 0;
+		}
+
+		#contact .row .idCard :first-child {
+			width: 80px;
+		}
+
+		#contact .row .idCard :last-child {
+			width: 40px;
+		}
+
+		#contact .row #phone {
+			max-width: 100% !important;
+			padding-right: 80px;
+		}
+
+		#contact input:hover {
+			transition: border-color 0.3s ease-in-out;
+			border: 1px solid rgb(68, 68, 68);
+		}
+
+		#contact button {
+			outline: none;
+			border: none;
+			background-color: #f15226;
+			color: white;
+			margin: 0 0 5px 40%;
+			padding: 10px;
+			font-size: 17px;
+			width: 150px;
+		}
+
+		#contact button:hover {
+			background-color: rgba(1, 1, 8, 0.8);
+		}
+
+		#contact input:focus {
+			outline: 0;
+			border: 1px solid red;
+		}
+
+		/* mobile responsive mode */
+		@media screen and (max-width: 580px) {
+			.row {
+				flex-direction: column;
+			}
+
+			.row .column {
+				width: 90% !important;
+			}
+
+			#contact .row #phone {
+				padding-right: 180px;
+			}	
+		}
+		footer {
+			background-color: #0f0e0e;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		#footer-bottom-text {
+			font-size: 14px;
+			margin-top: 20px;
+		}
+
+		#footer-bottom-text a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		#footer-bottom-text a:hover {
+			text-decoration: underline;
+			color: #ccc;
+		}
+	</style>
+	<!-- <script>
+		function redirect(){
+			window.location.replace("index.html");
+			return false;
+		}
+	</script> -->
+</head>
+
+<body class="subpage">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="logo"><a href="index.html">Helping Hearts</a></div>
+		<a href="#menu" class="toggle"><span>Menu</span></a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="donate.html">Donate Now</a></li>
+			<li><a href="reward.html">Rewards</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<form id="contact" action="" method="post" >
+			<h1>Clothes Donation Form</h1>
+			<hr>
+			<div class="row">
+				<!-- first column -->
+				<div class="column">
+					<fieldset>
+						<input type="text" placeholder="Full Name *" name="fullname" required autofocus>
+					</fieldset>
+					<fieldset>
+						<input type="text" placeholder="Phone number *" name="phonenumber" id="phone" required autofocus>
+					</fieldset>
+					<!-- <fieldset>
+							<input type="text" placeholder="Father name *" name="fname" required autofocus>
+						</fieldset> -->
+					<fieldset>
+						<input type="email" placeholder="Your email *" name="email" required autofocus>
+					</fieldset>
+					<fieldset>
+						<input type="text" placeholder="Pincode *" name="pincode" id="phone" required autofocus>
+					</fieldset>
+					<fieldset>
+						<input type="text" placeholder="State *" name="state" required autofocus>
+					</fieldset>
+					<fieldset>
+						<input type="text" placeholder="Locality/Town *" name="locality" required autofocus>
+					</fieldset>
+					<fieldset>
+						<input type="text" placeholder="City/District *" name="city" required autofocus>
+					</fieldset>
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">How many years have the dress been worn?</label>
+					<fieldset>
+						<input type="text" placeholder="years *" name="yearsused" required autofocus>
+					</fieldset>
+					
+
+
+				</div>
+				<!-- second column -->
+				<div class="column">
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">What is the condition of the
+						dress?</label>
+					<select name="condition" id="cars" style="margin-bottom:10px;">
+						<option value="audi">Please select</option>
+						<option value="volvo">Brand new</option>
+						<option value="saab">Very good</option>
+						<option value="mercedes">Good</option>
+						<option value="audi">Average</option>
+						<option value="audi">Bad</option>
+					</select>
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">What is the type of
+						dress?</label>
+					<select name="typeofdress" id="cars" style="margin-bottom:10px">
+						<option value="dress">Please select</option>
+						<option value="dress">Wedding dress</option>
+						<option value="dress">Children dress</option>
+						<option value="dress">Formal dress</option>
+						<option value="dress">Traditional dress</option>
+						<option value="dress">Western dress</option>
+					</select>
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">What is the fabric of
+						dress?</label>
+					<select name="fabric" id="cars" style="margin-bottom:10px">
+						<option value="dress">Please select</option>
+						<option value="dress">Cotton</option>
+						<option value="dress">Silk</option>
+						<option value="dress">Linen</option>
+						<option value="dress">Wool</option>
+						<option value="dress">Leather</option>
+						<option value="dress">Chiffon</option>
+						<option value="dress">Nylon</option>
+						<option value="dress">Polyster</option>
+						<option value="dress">Velvet</option>
+						<option value="dress">Denim</option>
+						<option value="dress">Rayon</option>
+						<option value="dress">Vicose</option>
+						<option value="dress">Satin</option>
+						<option value="dress">Other</option>
+					</select>
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">What is the color of
+						dress?</label>
+					<select name="color" id="cars" style="margin-bottom:10px">
+					    <option value="dress">Please select</option>
+						<option value="dress">Red</option>
+						<option value="dress">Yellow</option>
+						<option value="dress">Blue</option>
+						<option value="dress">Orange</option>
+						<option value="dress">Green</option>
+						<option value="dress">Pink</option>
+						<option value="dress">Purple</option>
+						<option value="dress">Brown</option>
+						<option value="dress">Grey</option>
+						<option value="dress">White</option>
+						<option value="dress">Blush</option>
+						<option value="dress">Champagne</option>
+						<option value="dress">Cream</option>
+						<option value="dress">Other</option>
+					</select>
+					<label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">What is the size of
+						dress?</label>
+					<select name="size" id="Dress" style="margin-bottom:20px">
+						<option value="dress">Please select</option>
+						<option value="dress">XS</option>
+						<option value="dress">S</option>
+						<option value="dress">L</option>
+						<option value="dress">XL</option>
+						<option value="dress">XXL</option>
+					</select>
+					<!-- <label for="cars" style="color:#ffffff;font-size: 20px;margin: auto;">Do you have a permission to contact you about the dress</label>
+					<select name="cars" id="cars">
+						<option value="dress">Please select</option>
+						<option value="dress">Yes</option>
+						<option value="dress">No</option>
+					</select> -->
+					<fieldset class="cars" style="color:#ffffff;font-size: 20px; margin:auto;">
+                        <p>Upload Dress Photo</p>
+                        <input type="file" id="file" name="img"required>
+                    </fieldset>
+				</div>
+			</div>
+			<!-- submit button -->
+			<fieldset>
+				<button type="submit" id="button">Submit Now</button>
+			</fieldset>
+		</form>
+	</div>
+
+<!-- footer -->
+<footer>
+	<div id="footer-bottom-text">Copyright © 2023 <a href="index.html">Helping Hearts</a></div>
+</footer>
+
+	<!-- Javascript to initialize the code list -->
+	<script>
+		var input = document.querySelector("#phone");
+		window.intlTelInput(input, {
+			separateDialCode: true
+		});
+	</script>
+
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
